@@ -13,8 +13,6 @@ Array.prototype.removeLastElement= function(){
     this[iterator]=this[iterator+1] 
   }
   return this.pop();
-
-
 }
 //Complexity O(n)
 function fibonacciElements(amounElements){
@@ -60,10 +58,8 @@ describe('Add Elemtens in array', () =>{
     expect(array[0]).toEqual(3); 
     expect(array.length).toEqual(3); 
   })
-   it('should add a element in [array.length] position in the array using property function',() => {
+   it('should add a element in last position in the array',() => {
     const array = new Array();
-    array.insertinFirstposition(1)
-    array.insertinFirstposition(2)
     array.insertinFirstposition(3)
     array[array.length]=4
     expect(array[array.length-1]).toEqual(4); 
@@ -75,7 +71,7 @@ describe('Add Elemtens in array', () =>{
     const expectResult=[1,1,2,3,5,8,13,21]
     expect(array).toEqual(expectResult); 
   })
-  it('should remove the last element of the array ',()=>{
+  it('should remove the last element of the array',()=>{
     const array=[1,2,3,4,5]
     array.pop();
     expect(array).toEqual([1,2,3,4])
