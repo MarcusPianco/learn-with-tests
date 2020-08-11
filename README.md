@@ -10,7 +10,7 @@ In each function created exist a comment with complexity of the algoritms.
 obs:.The test command is execute in `--watch` mode, if you need to change this, please change the ..."scripts": "test --watch"... property
 in the package.js file and eraser the flag `--watch`.
 ## Array
-Sice of creation at remove and add element in any position.
+Creation, remotion of element in any position, sortd elements, find elements, map, filter, find, findIndex, localeCompare, push, pop and etc...
 ### Contribution
 Help is the most beautiful form of friendship.
 if you want to add more code and tests could access here, it's free and online platform of codification: https://repl.it/@MarcusPianc/DataStructure
